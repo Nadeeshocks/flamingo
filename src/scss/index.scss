@@ -6,11 +6,15 @@ body{
   padding: 0;
   height :100%
 }
+#root{
+  height :100%;
+}
 
 @import './colors.scss';
 @import './typography.scss';
 @import '../js/components/toolbar/toolbar.scss';
 @import '../js/components/sideDrawer/side_drawer.scss';
+@import '../js/components/backdrop/backdrop.scss';
 @import '../js/components/drawerToggleButton/drawer_toggle_button.scss';
 @import '../js/components/header/header.scss';
 @import '../js/components/layout/layout.scss';

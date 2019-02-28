@@ -1,16 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const sideDrawer = props => (
+const SideDrawer = props => (
   <nav className="side-drawer">
     <ul className="side-drawer-nav">
       <li className="side-drawer-item">
-        <Link className="side-drawer-link">Shop All</Link>
+        <Link className="side-drawer-link" to="/">Shop All</Link>
       </li>
       <li className="side-drawer-item">
-        <Link className="side-drawer-link">Our Story</Link>
+        <Link className="side-drawer-link" to="/">Our Story</Link>
       </li>
       <li className="side-drawer-item">
-        <Link className="side-drawer-link">Wax Guide</Link>
+        <Link className="side-drawer-link" to="/">Wax Guide</Link>
       </li>
     </ul>
     <div className="contacts">
@@ -26,4 +27,4 @@ const sideDrawer = props => (
   </nav>
 );
 
-export default sideDrawer;
+export default SideDrawer;

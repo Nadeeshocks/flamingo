@@ -6,6 +6,9 @@ body {
   padding: 0;
   height: 100%; }
 
+#root {
+  height: 100%; }
+
 .toolbar {
   display: flex;
   align-items: center;
@@ -27,9 +30,23 @@ body {
     flex: 1;
     text-align: right; }
 
-.toggle-button {
-  background: transparent;
-  border: none; }
+.side-drawer {
+  height: 100%;
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 200; }
+
+.backdrop {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100; }
 
 .toggle-button {
   background: transparent;
@@ -43,5 +60,10 @@ header {
   background: #eee;
   height: 70px; }
 
-main {
-  margin-top: 80px; }
+.layout {
+  height: 100%; }
+  .layout main {
+    margin-top: 80px; }
+
+.app {
+  height: 100%; }
