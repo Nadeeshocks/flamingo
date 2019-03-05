@@ -1,8 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const SideDrawer = props => (
-  <nav className="side-drawer">
+const SideDrawer = ({show , click}) => (
+  
+  <nav className={`side-drawer ${show ? 'open' : '' }`} >
+    <div className="side-drawer-close" onClick={ click }>
+      <i className="fa fa-times fa-2x" aria-hidden="true"></i>
+    </div>
     <ul className="side-drawer-nav">
       <li className="side-drawer-item">
         <Link className="side-drawer-link" to="/">Shop All</Link>
@@ -15,13 +19,16 @@ const SideDrawer = props => (
       </li>
     </ul>
     <div className="contacts">
-      <p className="faq"></p>
-      <p className="halp"></p>
-      <p className="phone"></p>
-      <p className="press"></p>
+      <p className="faq">
+        <span> HAVE QUESTIONS? </span>
+        <span> FAQ </span>
+      </p>
+      <p className="halp"> help@shopflamingo.com </p>
+      <p className="phone"> 1-888-205-9655</p>
+      <p className="press"> press@shopflamingo.com </p>
       <div className="social-media">
-        <i className="fa fa-facebook"></i>
-        <i className="fa fa-insta"></i>
+        <i className="fab fa-facebook-f"></i>
+        <i className="fab fa-instagram"></i>
       </div>
     </div>
   </nav>

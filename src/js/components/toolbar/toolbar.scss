@@ -3,6 +3,10 @@
   align-items: center;
   text-align: center;
   height: 100%;
+  .toolbar-toggle{
+    flex: 1;
+    text-align: left;
+  }
   .toolbar-nav{
     flex :1;
     ul{
@@ -11,16 +15,47 @@
       margin :0;
       display: flex;
       justify-content: space-between;
-      .toolbar-nav-item{
+      li.toolbar-nav-item{
         padding: 0 1rem;
+        a.toolbar-nav-link{
+          text-decoration: none;
+          color: $black;
+          text-transform: uppercase;
+          text-align: center;
+          margin: 0px 10px;
+          cursor: pointer;
+          font-size: 0.7rem;
+          font-weight: 700;
+          letter-spacing: 1px;
+          
+        }
       }
     }
   }
   .toolbar-brand{
-    flex :2;
+    flex :1;
+    img{
+      width : 120px;
+    }
   }
   .toolbar-cart{
     flex :1;
     text-align: right;
+    padding :0 20px;
   }
+}
+@media(max-width :768px){
+  .toolbar-nav{
+    display: none ;
+  }
+  .toolbar-cart{
+    padding :0 ;
+  }
+}
+
+@media(min-width : 768px){
+  .toolbar-toggle{
+    display: none;
+  }
+  
 }

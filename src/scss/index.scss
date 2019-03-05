@@ -2,6 +2,7 @@ html{
   height: 100%;
 }
 body{
+  font-family: 'Montserrat', sans-serif ;
   margin : 0;
   padding: 0;
   height :100%
@@ -12,10 +13,14 @@ body{
 
 @import './colors.scss';
 @import './typography.scss';
+@import './buttons.scss';
 @import '../js/components/toolbar/toolbar.scss';
 @import '../js/components/sideDrawer/side_drawer.scss';
+@import '../js/components/cartDrawer/cart_drawer.scss';
 @import '../js/components/backdrop/backdrop.scss';
 @import '../js/components/drawerToggleButton/drawer_toggle_button.scss';
+@import '../js/components/cartToggleButton/cart_toggle_button.scss';
 @import '../js/components/header/header.scss';
 @import '../js/components/layout/layout.scss';
 @import '../js/components/app/app.scss';
+@import '../js/components/showcase/showcase.scss';

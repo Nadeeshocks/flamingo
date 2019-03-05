@@ -1,0 +1,9 @@
+.cart-toggle-button{
+  background-color: transparent;
+  border :none;
+
+  &:focus,
+  &:active{
+    outline: none;
+  }
+}

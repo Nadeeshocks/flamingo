@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import DrawerToggleButton from '../drawerToggleButton/drawer_toggle_button';
+import CartToggleButton from '../cartToggleButton/cart_toggle_button';
 
-const Toolbar = props => (
+const Toolbar = ({ toolbarClick , cartClick }) => (
     <div className="container-fluid h-100">
         <nav className="toolbar">
-            <div>
-                <DrawerToggleButton />
+            <div className="toolbar-toggle">
+                <DrawerToggleButton click={toolbarClick} />
             </div>
             
             <div className="toolbar-nav">
@@ -25,12 +26,12 @@ const Toolbar = props => (
 
             <div className="toolbar-brand">
                 <Link to="/">
-                    <img src={'assets/svg/log.svg'} />
+                    <img src={'public/assets/images/logo/logo.png'} />
                 </Link>
             </div>
 
             <div className="toolbar-cart">
-                <i className="fas fa-shopping-cart"></i>
+                <CartToggleButton click={ cartClick }/>
             </div>
         </nav>
     </div>

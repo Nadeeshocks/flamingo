@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { connect } from "react-redux";
+import ShowCase from "../../components/showcase/showcase";
 
-export default class Home extends React.Component{
-  render(){
+class Home extends Component {
+  render() {
     return (
-      <h1>Home</h1>
-    )
+      <React.Fragment>
+        <ShowCase />
+      </React.Fragment>
+    );
   }
 }
+
+export default Home;

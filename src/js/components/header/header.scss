@@ -3,6 +3,11 @@ header{
   top : 0;
   left : 0;
   width : 100%;
-  background: #eee;
   height: 70px;
+  z-index : 4000;
+}
+@media(max-width :767px){
+  header{
+    background-color : $white;
+  }
 }

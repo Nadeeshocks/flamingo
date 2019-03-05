@@ -1,9 +1,12 @@
 import React from 'react';
 import Toolbar from '../toolbar/toolbar.js';
 
-const Header = () =>(
+const Header = props =>(
 	<header>
-		<Toolbar />
+		<Toolbar 
+			toolbarClick={props.drawerClickHandle} 
+			cartClick={props.cartClickHandle} 
+		/>
 	</header>
 );
 

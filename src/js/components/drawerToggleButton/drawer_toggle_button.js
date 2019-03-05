@@ -1,7 +1,7 @@
 import React from 'react';
 
-const DrawerToggleButton = props => (
-  <button className="toggle-button">
+const DrawerToggleButton = ({click}) => (
+  <button className="toggle-button" onClick={click} >
     <i className="fas fa-bars"></i>
   </button>
 );
