@@ -1,0 +1,79 @@
+{
+  "products": [
+    {
+      "product_title": "shave set",
+      "price": "16.00",
+      "imgUrl": "/public/assets/images/products/ProductGallery-StarterSet-Taro_podcast.png",
+      "colors": true,
+      "color_type": [
+        "101",
+        "102",
+        "103"
+      ]
+    },
+    {
+      "product_title": "face wax kit",
+      "imgUrl": "/public/assets/images/products/ProductGallery-FaceWaxKit_B.png",
+      "price": "19.00",
+      "colors": false,
+      "color_type": []
+    },
+    {
+      "product_title": "body wax kit",
+      "imgUrl": "/public/assets/images/products/ProductGallery-BodyWaxKit_B.png",
+      "price": "11.00",
+      "colors": false,
+      "color_type": []
+    },
+    {
+      "product_title": "foaming shave gel",
+      "imgUrl": "/public/assets/images/products/ProductGallery-FoamingShaveGel.png",
+      "price": "23.00",
+      "colors": false,
+      "color_type": []
+    },
+    {
+      "product_title": "body lotion",
+      "imgUrl": "/public/assets/images/products/ProductGallery-BodyLotion.png",
+      "price": "16.00",
+      "colors": false,
+      "color_type": []
+    },
+    {
+      "product_title": "flamingo razor",
+      "price": "10.00",
+      "imgUrl": "/public/assets/images/products/ProductGallery-Razor-Taro.png",
+      "colors": true,
+      "color_type": [
+        "101",
+        "102",
+        "103"
+      ]
+    },
+    {
+      "product_title": "blades",
+      "price": "11.00",
+      "imgUrl": "/public/assets/images/products/ProductGallery-Blades-c.png",
+      "colors": false,
+      "color_type": []
+    }
+
+  ],
+  "color_scheme" :[
+    {
+      "id" :101,
+      "title": "melon-silver",
+      "imgUrl": "/public/assets/images/products/melon-silver.png"
+    },
+    {
+      "id" : 102,
+      "title": "mint-gold",
+      "imgUrl": "/public/assets/images/products/mint-gold.png"
+    },
+    {
+      "id" : 103,
+      "title": "taro-rosegold",
+      "imgUrl": "/public/assets/images/products/taro-rosegold.png"
+    }
+  ]
+}

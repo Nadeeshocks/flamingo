@@ -1,9 +1,14 @@
 import React from "react";
-import { Route } from 'react-router-dom';
+import { Route, Switch} from 'react-router-dom';
 import Home from '../containers/home/home';
+import Products from '../containers/products/products';
 
 export default(
-  <div className="app-content">
+  <Switch>
     <Route exact path="/" component={Home} />
-  </div>
+    <Route path ="/products" component={Products} />
+    <Route path="/ourStory" component={() => <h2>ourStory</h2>} />
+    <Route path="/waxGuide" component={() => <h2>waxGuide</h2>} />
+    <Route path="" component={()=> <h2>Not A Valid URL .</h2>}/>
+  </Switch>
 )

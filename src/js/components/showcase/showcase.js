@@ -11,7 +11,6 @@ const ShowCase = props => (
       </div>
     </div>
     <div className="showcase-img-wrapper">
-      <img src="/public/assets/images/products/Flamingo-LandscapeHeroSuite-edit3.jpg" alt=""/>
     </div>
   </div>
 )

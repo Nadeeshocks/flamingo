@@ -1,0 +1,32 @@
+.featured.cards{
+        margin-bottom: 5rem;
+        .cards-img{
+          margin-bottom: 2rem;
+          img{
+             @include mQ(767px){
+              width :100%;
+             }
+          }
+        }
+        .cards-detail{
+          h3{
+            display: inline-block;
+          }
+          .price{
+            margin-left: 8px;
+          }
+          .shop{
+            font-weight: 500;
+            &:hover{
+              transform: translate3d(10px, 0px, 0px);
+              transition: all 300ms ease 0s;
+            }
+          }
+        }
+      }
+      .cards:nth-child(2){
+        margin-left: 250px;
+        @include mQ(767px){
+          margin-left: -15px;      
+        }
+      }

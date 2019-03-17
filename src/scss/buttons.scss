@@ -6,7 +6,7 @@
   width: 270px;
   height: 65px;
   font-family: $primary-font;
-  font-size: 0.75rem;
+  font-size: 0.6875rem;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1.3px;
@@ -15,6 +15,7 @@
   margin: 0px auto;
   &:hover{
     background-color: $primary-dark-color ;
+    color: $white;
   }
 }
 .f-filled-btn{
@@ -26,4 +27,5 @@
   color: $primary-light-color;
   background-color:transparent;
   border:1px solid $primary-light-color;
+  font-weight: 600;
 }

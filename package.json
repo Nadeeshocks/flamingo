@@ -7,14 +7,18 @@
   "scripts": {
     "build-css": "node-sass-chokidar src/scss/index.scss src/css/index.css",
     "watch-css": "npm run build-css &  node-sass-chokidar src/scss/index.scss src/css/index.css --watch",
-    "start": "webpack-dev-server --open --hot --config webpack.dev.js ",
-    "app": "npm-run-all -p watch-css start",
+    "mock:api": "json-server --watch src/js/APIs/data_store.json --port 4000",
+    "start": "webpack-dev-server --open --hot --config webpack.dev.js",
+    "app": "npm-run-all -p mock:api watch-css start",
     "build": "webpack -p --config webpack.prod.js"
   },
   "author": "Nadia Iqbal",
   "license": "ISC",
   "dependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "axios": "^0.18.0",
     "bootstrap": "^4.3.1",
+    "immer": "^1.8.0",
     "lodash": "^4.17.11",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
@@ -22,8 +26,7 @@
     "react-redux": "^5.1.1",
     "react-router-dom": "4.3.1",
     "reactstrap": "^6.5.0",
-    "redux": "^4.0.1",
-    "reselect": "^4.0.0"
+    "redux": "^4.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
@@ -38,6 +41,7 @@
     "css-loader": "^2.0.1",
     "file-loader": "^2.0.0",
     "html-webpack-plugin": "^4.0.0-beta.5",
+    "json-server": "^0.14.2",
     "mini-css-extract-plugin": "^0.5.0",
     "node-sass-chokidar": "^1.3.4",
     "npm-run-all": "^4.1.5",

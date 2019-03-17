@@ -1,14 +1,16 @@
 import React from 'react';
 import Layout from '../layout/layout';
-import { BrowserRouter } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import { BrowserRouter} from 'react-router-dom';
+import store from '../../config/store';
 
 const App = () => {
   return (
-    <div className="app">
+    <Provider store={store}>
       <BrowserRouter>
-        <Layout />
+          <Layout />
       </BrowserRouter>
-    </div>
+    </Provider>
   )
 }
 

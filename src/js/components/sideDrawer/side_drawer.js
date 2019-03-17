@@ -19,16 +19,14 @@ const SideDrawer = ({show , click}) => (
       </li>
     </ul>
     <div className="contacts">
-      <p className="faq">
-        <span> HAVE QUESTIONS? </span>
-        <span> FAQ </span>
-      </p>
-      <p className="halp"> help@shopflamingo.com </p>
-      <p className="phone"> 1-888-205-9655</p>
-      <p className="press"> press@shopflamingo.com </p>
-      <div className="social-media">
-        <i className="fab fa-facebook-f"></i>
-        <i className="fab fa-instagram"></i>
+      <p className="text-uc-10"> HAVE QUESTIONS? </p>
+      <p className="text-uc-14"> FAQ </p>
+      <p className="halp text-c-14 mb-1"> help@shopflamingo.com </p>
+      <p className="phone text-c-14 mb-1"> 1-888-205-9655</p>
+      <p className="press text-c-14 mb-1"> press@shopflamingo.com </p>
+      <div className="social-media mt-5">
+        <i className="fab fa-facebook-f fa-lg fa-fw"></i>
+        <i className="fab fa-instagram fa-lg fa-fw"></i>
       </div>
     </div>
   </nav>

@@ -13,13 +13,13 @@ const Toolbar = ({ toolbarClick , cartClick }) => (
             <div className="toolbar-nav">
                 <ul>
                     <li className="toolbar-nav-item">
-                        <Link to="/" className="toolbar-nav-link">shop all</Link>
+                        <Link to="/products" className="toolbar-nav-link">shop all</Link>
                     </li>
                     <li className="toolbar-nav-item">
-                        <Link to="/" className="toolbar-nav-link">our story</Link>
+                        <Link to="/ourStory" className="toolbar-nav-link">our story</Link>
                     </li>
                     <li className="toolbar-nav-item">
-                        <Link to="/" className="toolbar-nav-link">wax guide</Link>
+                        <Link to="/waxGuide" className="toolbar-nav-link">wax guide</Link>
                     </li>
                 </ul>
             </div>

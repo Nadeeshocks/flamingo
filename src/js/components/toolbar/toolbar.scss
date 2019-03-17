@@ -6,9 +6,15 @@
   .toolbar-toggle{
     flex: 1;
     text-align: left;
+    @include mQMin(767px){
+      display: none;
+    }
   }
   .toolbar-nav{
     flex :1;
+    @include mQ(767px){
+      display: none ;
+    }
     ul{
       list-style: none;
       padding :0;
@@ -24,7 +30,7 @@
           text-align: center;
           margin: 0px 10px;
           cursor: pointer;
-          font-size: 0.7rem;
+          font-size: 0.625rem;
           font-weight: 700;
           letter-spacing: 1px;
           
@@ -42,20 +48,23 @@
     flex :1;
     text-align: right;
     padding :0 20px;
-  }
-}
-@media(max-width :768px){
-  .toolbar-nav{
-    display: none ;
-  }
-  .toolbar-cart{
-    padding :0 ;
+    @include mQ(767px){
+      padding :0 !important;
+    }
   }
 }
 
 @media(min-width : 768px){
   .toolbar-toggle{
-    display: none;
+    
   }
   
+}
+@media(max-width :768px){
+  .toolbar-nav{
+    
+  }
+  .toolbar-cart{
+    
+  }
 }

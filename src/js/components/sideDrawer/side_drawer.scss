@@ -5,9 +5,22 @@
     position :fixed ;
     top:0;
     left :0;
-    z-index: 5000;
+    z-index:5000;
     transform: translateX(-100%);
     transition: transform 0.5s ease-out;
+    padding :20px;
+    ul.side-drawer-nav{
+        margin-top :10%;
+        margin-bottom: 20%;
+        li.side-drawer-item{
+            margin-bottom: 20px;
+            a.side-drawer-link{
+                font-size: 1.5rem;
+                font-weight: 500;
+                color : $black;
+            }
+        }
+    }
 }
 .open{
     transform: translateX(0);

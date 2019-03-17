@@ -1,0 +1,78 @@
+.home{
+  .home-head{
+  }
+  .home-body{
+    background-color: $white;
+    position : relative;
+    z-index: 3000;
+    .about-flamingo{
+      background-color: $secondery-color;
+      padding : 6rem 0 4rem;
+      p{
+        width :35%;
+        margin: 0 auto;
+        text-align: center;
+        letter-spacing: 1.2px;
+        font-weight : 500;
+        font-size: 1.5rem;
+        line-height:35px;
+        @include mQ(767px){
+          width :100%;
+          padding: 0 20px;
+          font-size: 1.2rem;
+        }
+      }
+    }
+    .featured-products{
+      background-color : $white;
+      .title{
+        padding: 5rem 0;
+        text-align: center;
+        font-weight :400;
+      }
+      
+    }
+    .product-shop{
+      min-height : 500px;
+      background-image: url('/public/assets/images/shop-background.jpg'); 
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display : flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .wax-guide{
+      padding : 5rem 0;
+      display :flex;
+      @include mQ(767px){
+        display :block;
+      }
+      .wax-guide-img{
+        flex:1;
+        padding :30px;
+        padding-left: 0;
+        img{
+          max-width: 100%;
+        }
+        @include mQ(767px){
+          display: block;
+          padding: 0;
+        }
+      }
+      .wax-guide-detail{
+        flex:1;
+        display: flex;
+        align-items: center;
+        padding :0 40px;
+        opacity: 0.8;
+        @include mQ(767px){
+          display: block;
+          padding :20px 10px;
+        }
+      }
+    }
+
+  }
+}

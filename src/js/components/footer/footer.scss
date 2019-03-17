@@ -1,0 +1,30 @@
+footer{
+  padding: 2rem 0;
+  text-align: center;
+  position : relative;
+  z-index: 3000;
+  background-color: $white;
+  .divider{
+    display :flex;
+    align-items: center;
+    padding :0 2rem;
+    margin-bottom: 3rem;
+    @include mQ(767px){
+      padding :0;
+    }
+    .line{
+      border-top :1px solid $black;
+      width: 100%;
+    }
+  }
+  .social-media{
+    @include mQ(767px){
+      margin-top: 2rem;
+    }
+  }
+  .flamingo-logo img{
+    width : 70px;
+    padding : 0 1rem;
+    box-sizing: content-box;
+  }
+}

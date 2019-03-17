@@ -7,13 +7,13 @@ const CartDrawer = ({ show , click }) =>(
       <i className="fas fa-arrow-left"></i>
     </div>
     <div className="cart-drawer-title">
-      <h2>YOUR BAG</h2>
-      <p>is currently empty</p>
+      <h2 className="text-uc-l">YOUR BAG</h2>
+      <p className="text-c-14">is currently empty</p>
     </div>
     <div className="cart-drawer-footer">
-      <p>Looks like there's nothing in your cart.</p>
-      <p>We can help with that.</p>
-      <button>
+      <p className="text-c-14 mb-2">Looks like there's nothing in your cart.</p>
+      <p className="text-c-14 mb-5">We can help with that.</p>
+      <button className="f-btn f-border-btn w-100">
         Start Shopping
       </button>
     </div>
