@@ -12,14 +12,13 @@ class Products extends React.Component{
 
   renderProductList = ()=>{
     const {product_list} = this.props.products;
-    console.log(this.props.products);
-
+    const { match } = this.props;
     return (
       <Row>
         { 
           product_list.map((item, index) => {
           return (
-            <Product product={item} key={index} />
+            <Product product={item} key={index} url={match.url}/>
           )
         })
         }

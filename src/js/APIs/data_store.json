@@ -1,6 +1,7 @@
 {
   "products": [
     {
+      "id": "shave-set",
       "product_title": "shave set",
       "price": "16.00",
       "imgUrl": "/public/assets/images/products/ProductGallery-StarterSet-Taro_podcast.png",
@@ -12,6 +13,7 @@
       ]
     },
     {
+      "id": "face-wax-kit",
       "product_title": "face wax kit",
       "imgUrl": "/public/assets/images/products/ProductGallery-FaceWaxKit_B.png",
       "price": "19.00",
@@ -19,6 +21,7 @@
       "color_type": []
     },
     {
+      "id": "body-wax-kit",
       "product_title": "body wax kit",
       "imgUrl": "/public/assets/images/products/ProductGallery-BodyWaxKit_B.png",
       "price": "11.00",
@@ -26,6 +29,7 @@
       "color_type": []
     },
     {
+      "id": "foaming-shave-gel",
       "product_title": "foaming shave gel",
       "imgUrl": "/public/assets/images/products/ProductGallery-FoamingShaveGel.png",
       "price": "23.00",
@@ -33,6 +37,7 @@
       "color_type": []
     },
     {
+      "id": "body-lotion",
       "product_title": "body lotion",
       "imgUrl": "/public/assets/images/products/ProductGallery-BodyLotion.png",
       "price": "16.00",
@@ -40,6 +45,7 @@
       "color_type": []
     },
     {
+      "id": "flamingo-razor",
       "product_title": "flamingo razor",
       "price": "10.00",
       "imgUrl": "/public/assets/images/products/ProductGallery-Razor-Taro.png",
