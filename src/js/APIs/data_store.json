@@ -4,7 +4,21 @@
       "id": "shave-set",
       "product_title": "shave set",
       "price": "16.00",
-      "imgUrl": "/public/assets/images/products/ProductGallery-StarterSet-Taro_podcast.png",
+      "img": [
+        {
+          "type" : "taro-rosegold",
+           "url" : "/public/assets/images/products/ProductGallery-StarterSet-Taro_podcast.png"
+        },
+        {
+          "type" : "mint-gold",
+          "url" : "/public/assets/images/products/ProductGallery-mint-gold.png"
+        },
+        
+        {
+          "type" : "melon-silver",
+           "url" :"/public/assets/images/products/ProductGallery-melon-silver.png"
+        }
+      ],
       "colors": true,
       "color_type": [
         "101",
@@ -15,7 +29,9 @@
     {
       "id": "face-wax-kit",
       "product_title": "face wax kit",
-      "imgUrl": "/public/assets/images/products/ProductGallery-FaceWaxKit_B.png",
+      "img":[{
+        "url" : "/public/assets/images/products/ProductGallery-FaceWaxKit_B.png"
+      } ],
       "price": "19.00",
       "colors": false,
       "color_type": []
@@ -23,7 +39,9 @@
     {
       "id": "body-wax-kit",
       "product_title": "body wax kit",
-      "imgUrl": "/public/assets/images/products/ProductGallery-BodyWaxKit_B.png",
+      "img":[{
+        "url" : "/public/assets/images/products/ProductGallery-BodyWaxKit_B.png"
+      }] ,
       "price": "11.00",
       "colors": false,
       "color_type": []
@@ -31,7 +49,9 @@
     {
       "id": "foaming-shave-gel",
       "product_title": "foaming shave gel",
-      "imgUrl": "/public/assets/images/products/ProductGallery-FoamingShaveGel.png",
+      "img":[{
+        "url" : "/public/assets/images/products/ProductGallery-FoamingShaveGel.png"
+      } ],
       "price": "23.00",
       "colors": false,
       "color_type": []
@@ -39,7 +59,9 @@
     {
       "id": "body-lotion",
       "product_title": "body lotion",
-      "imgUrl": "/public/assets/images/products/ProductGallery-BodyLotion.png",
+      "img":[{
+        "url" : "/public/assets/images/products/ProductGallery-BodyLotion.png"
+      } ],
       "price": "16.00",
       "colors": false,
       "color_type": []
@@ -48,7 +70,21 @@
       "id": "flamingo-razor",
       "product_title": "flamingo razor",
       "price": "10.00",
-      "imgUrl": "/public/assets/images/products/ProductGallery-Razor-Taro.png",
+      "img": [
+        {
+          "type" : "taro-rosegold",
+           "url" : "/public/assets/images/products/ProductGallery-Razor-taro-rosegold.png"
+        },
+        {
+          "type" : "melon-silver",
+          "url" : "/public/assets/images/products/ProductGallery-Razor-melon-silver.png"
+        },
+        
+        {
+          "type" : "mint-gold",
+           "url" :"/public/assets/images/products/ProductGallery-Razor-mint-gold.png"
+        }
+      ],
       "colors": true,
       "color_type": [
         "101",
@@ -59,25 +95,50 @@
     {
       "product_title": "blades",
       "price": "11.00",
-      "imgUrl": "/public/assets/images/products/ProductGallery-Blades-c.png",
+      "img":[{
+        "url" : "/public/assets/images/products/ProductGallery-Blades-c.png"
+      }],
       "colors": false,
       "color_type": []
     }
-
   ],
-  "color_scheme" :[
+  "featured_Products":[
     {
-      "id" :101,
+      "id" : "shave-set",
+      "img_url":"/public/assets/images/products/Homepage-BelowFold-ShaveSet-edit.jpg",
+      "title": "shave set",
+      "price" :"16.00",
+      "desc":"Because shaving starts with a well-designed razor and happy skin."
+    },
+    {
+      "id": "face-wax-kit",
+      "img_url":"/public/assets/images/products/Homepage-BelowFold-FaceWax-edit.jpg",
+      "title": "face wax kit",
+      "price": "10.00",
+      "desc": "Because we have mustaches too."
+    },
+    {
+      "id": "body-wax-kit",
+      "img_url":"/public/assets/images/products/Homepage-BelowFold-BodyWax-edit.jpg",
+      "title": "body wax kit",
+      "price": "10.00",
+      "desc": "Because you don’t have to have hair there."
+    }
+  ],
+
+  "color_scheme": [
+    {
+      "id": 101,
       "title": "melon-silver",
       "imgUrl": "/public/assets/images/products/melon-silver.png"
     },
     {
-      "id" : 102,
+      "id": 102,
       "title": "mint-gold",
       "imgUrl": "/public/assets/images/products/mint-gold.png"
     },
     {
-      "id" : 103,
+      "id": 103,
       "title": "taro-rosegold",
       "imgUrl": "/public/assets/images/products/taro-rosegold.png"
     }

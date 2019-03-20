@@ -4,7 +4,7 @@ import axios from "axios";
 
 const { dispatch } = store;
 
-const getProductList = async()=>{
+const getProductList = async ()=>{
   try{
     let response = await axios.get(API_URL + 'products')
     
@@ -20,4 +20,18 @@ const getProductList = async()=>{
 
 }
 
-export { getProductList };
+const getColorPalette = async ()=>{
+  try{
+    let response = await axios.get(API_URL + 'color_scheme');
+
+    dispatch({
+      type : ACTIONS.GET_COLOR_PALETTE,
+      payload :response.data
+    })
+  }
+  catch(err){
+    console.log(err);
+  }
+}
+
+export { getProductList, getColorPalette };

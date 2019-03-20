@@ -1,24 +1,41 @@
 import React from 'react';
 import { connect } from "react-redux";
-import { getProductList } from "./actions";
+import { getProductList , getColorPalette } from "./actions";
 import { Container, Row } from "reactstrap";
 import Product from '../../components/product/product';
 
 class Products extends React.Component{
+  state = {
+    color:"taro-rosegold"
+  }
 
   componentDidMount(){
     getProductList();
+    getColorPalette();
+  }
+
+  handleColorPaletteClick = e => {
+    this.setState({
+      color : e.target.dataset.value
+    })
   }
 
   renderProductList = ()=>{
-    const {product_list} = this.props.products;
+    const {product_list , color_palette} = this.props.products;
     const { match } = this.props;
     return (
       <Row>
         { 
           product_list.map((item, index) => {
           return (
-            <Product product={item} key={index} url={match.url}/>
+            <Product 
+              product={item} 
+              key={index} 
+              url={match.url} 
+              colorPalette={color_palette}
+              onClickHandle = {this.handleColorPaletteClick}
+              selectedColor = {this.state.color}
+              />
           )
         })
         }

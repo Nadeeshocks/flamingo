@@ -4,7 +4,7 @@ import Affix from '../affix/affix';
 
 const Header = props =>(
 	<header>
-		<Affix offset="450" disappear="650" className="h-100">
+		<Affix offset="250" disappear="850" className="h-100">
 			<Toolbar 
 				toolbarClick={props.drawerClickHandle} 
 				cartClick={props.cartClickHandle} 

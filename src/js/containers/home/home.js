@@ -4,6 +4,7 @@ import ShowCase from "../../components/showcase/showcase";
 import { getFeaturedProducts } from "./actions";
 import { Container } from "reactstrap";
 import FeaturedProduct from '../../components/featuredProduct/featuredProduct';
+import { Link } from 'react-router-dom';
 
 class Home extends Component {
 
@@ -15,12 +16,11 @@ class Home extends Component {
 
     return featured.map((item , index)=>{
         return (
-          <FeaturedProduct item ={item} key={index}/> 
+          <FeaturedProduct item ={item} key={index} /> 
         )
     })
   }
   render() {
-    
     return (
       <div className="home">
         <div className="home-head">
@@ -41,7 +41,9 @@ class Home extends Component {
           </div>
 
           <div className="product-shop">
-            <button className="f-btn f-border-btn">Shop our Products</button>
+            <Link  to="/products">          
+              <button className="f-btn f-border-btn">Shop our Products</button>
+            </Link>
           </div>
 
           <div className="wax-guide">

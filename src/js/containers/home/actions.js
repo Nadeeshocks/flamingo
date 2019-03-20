@@ -1,15 +1,16 @@
 import ACTIONS, { API_URL } from '../../config/constants';
-import featuredProducts from '../../APIs/featuredProducts';
 import store from '../../config/store';
+import axios from "axios";
 
 const { dispatch } = store;
 
 const getFeaturedProducts = async () => {
   try{
-    const data = await featuredProducts;
+    let response = await axios.get(API_URL + 'featured_Products')
+    
     dispatch({
       type: ACTIONS.GET_FEATURED_PRODUCT,
-      payload: data
+      payload: response.data
     })
   }
   catch(err){

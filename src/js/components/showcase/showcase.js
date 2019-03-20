@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ShowCase = props => (
   <div className="showcase">
@@ -7,7 +8,9 @@ const ShowCase = props => (
         <h1 className="main-heading">Body care for women with hair</h1>
       </div>
       <div className="show-body">
-        <button className="f-btn f-filled-btn">SHOP OUR PRODUCTS</button>
+        <Link  to="/products">
+          <button className="f-btn f-filled-btn">SHOP OUR PRODUCTS</button>        
+        </Link>
       </div>
     </div>
     <div className="showcase-img-wrapper">
