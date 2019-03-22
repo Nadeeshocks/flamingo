@@ -93,6 +93,7 @@
       ]
     },
     {
+      "id": "Blades",
       "product_title": "blades",
       "price": "11.00",
       "img":[{
@@ -142,5 +143,67 @@
       "title": "taro-rosegold",
       "imgUrl": "/public/assets/images/products/taro-rosegold.png"
     }
-  ]
+  ],
+  "shave-set":{
+    "id" : "shave-set",
+    "desc" :"Our Shave Set is packed with all of your shaving essentials, including our thoughtfully designed Flamingo Razor with expertly engineered blades. We’re here to make shaving feel less like a chore.",
+    "assets" :[
+      {
+        "quantity" : "1",
+        "item" : "Flamingo Razor Handle"
+      },
+      {
+        "quantity" : "2",
+        "item" : "German-Engineered Five Blade Cartridges"
+      },
+      {
+        "quantity" : "1",
+        "item" : "Foaming Shave Gel (1oz)"
+      },
+      {
+        "quantity" : "1",
+        "item" : "Body Lotion (3oz)"
+      },
+      {
+        "quantity" : "1",
+        "item" : "Shower Hook"
+      },
+      {
+        "quantity" : "1",
+        "item" : "Reusable Pouch"
+      }
+
+    ],
+    "images":[
+      {
+        "type":"",
+        "url" :""
+      }
+    ],
+    "colors": true,
+    "color_type": [
+      "101",
+      "102",
+      "103"
+    ]   
+
+  },
+  "face-wax-kit":{
+
+  },
+  "body-wax-kit":{
+
+  },
+  "foaming-shave-gel":{
+
+  },
+  "body-lotion":{
+
+  },
+  "flamingo-razor":{
+
+  },
+  "Blades":{
+
+  }
 }
