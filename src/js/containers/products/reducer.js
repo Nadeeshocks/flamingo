@@ -6,7 +6,7 @@ const initialState = {
   color_palette:[]
 };
 
-const products = (state = initialState, action) => {
+export default (state = initialState, action) => {
   return producer(state, draft => {
     switch (action.type) {
       case ACTIONS.GET_PRODUCTS_LIST:
@@ -20,5 +20,3 @@ const products = (state = initialState, action) => {
     }
   });
 }
-
-export default products;

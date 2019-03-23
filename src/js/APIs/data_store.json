@@ -147,37 +147,68 @@
   "shave-set":{
     "id" : "shave-set",
     "desc" :"Our Shave Set is packed with all of your shaving essentials, including our thoughtfully designed Flamingo Razor with expertly engineered blades. We’re here to make shaving feel less like a chore.",
+    "price" : "16",
     "assets" :[
       {
         "quantity" : "1",
-        "item" : "Flamingo Razor Handle"
+        "item" : "Flamingo Razor Handle",
+        "detail" : ""
       },
       {
         "quantity" : "2",
-        "item" : "German-Engineered Five Blade Cartridges"
+        "item" : "German-Engineered Five Blade Cartridges",
+        "detail" : ""
       },
       {
         "quantity" : "1",
-        "item" : "Foaming Shave Gel (1oz)"
+        "item" : "Foaming Shave Gel (1oz)",
+        "detail" : ""
       },
       {
         "quantity" : "1",
-        "item" : "Body Lotion (3oz)"
+        "item" : "Body Lotion (3oz)",
+        "detail" : ""
       },
       {
         "quantity" : "1",
-        "item" : "Shower Hook"
+        "item" : "Shower Hook",
+        "detail" : ""
       },
       {
         "quantity" : "1",
-        "item" : "Reusable Pouch"
+        "item" : "Reusable Pouch",
+        "detail" : ""
       }
 
     ],
     "images":[
       {
-        "type":"",
-        "url" :""
+        "type":"000",
+        "url" :"/public/assets/images/products/Homepage-BelowFold-ShaveSet-edit.jpg"
+      },
+      {
+        "type":"001",
+        "url" :"/public/assets/images/products/MediaGallery-ShaveSet-image4-edit.jpg"
+      },
+      {
+        "type":"002",
+        "url" :"/public/assets/images/products/MediaGallery-ShaveSet-Taro-image2.jpg"
+      },
+      {
+        "type":"003",
+        "url" :"/public/assets/images/products/MediaGallery-ShaveSet-Taro-image3.jpg"
+      },
+      {
+        "type":"004",
+        "url" :"/public/assets/images/products/MediaGallery-ShaveSet-Taro-image5.jpg"
+      },
+      {
+        "type":"005",
+        "url" :"/public/assets/images/products/MediaGallery-ShaveSet-Taro-image6.jpg"
+      },
+      {
+        "type":"006",
+        "url" :"/public/assets/images/products/MediaGallery-ShaveSet-Taro-image7.jpg"
       }
     ],
     "colors": true,
@@ -189,7 +220,55 @@
 
   },
   "face-wax-kit":{
-
+    "id" : "face-wax-kit",
+    "desc" :"Your mustache, your chin, and your unibrow. We got you. Our Face Wax Kit includes ready-to-use soft gel face wax strips formulated for even the finest and shortest of hairs, plus post-wax essentials to soothe and calm skin.",
+    "price" :"20",
+    "assets":[
+      {
+        "quantity" : "20",
+        "item" : "face wax strips",
+        "details":{
+          "about":"Ready-to-use (no heating required), soft gel wax strips for the face. Kit includes 20 (10 double-sided) strips. Each strip is good for (at least) two pulls.",
+          "benefits":"Our unique, first-to-the-US formula removes the finest, shortest, and spikiest of hairs (as short as 1.5mm). Results last up to 4 weeks.",
+          "ideal":"All skin types and all hair types.Do not use on irritated, wounded, chapped, sunburned, or swollen skin. Talk to your doctor if you are taking retinoids or are undergoing any treatment that may affect the skin, suffer from any skin related conditions or if you have experienced an adverse reaction to waxing in the past.",
+          "how":"Before use, carry out a test on a small part of the area to be waxed. If there is no adverse reaction, continue using the product. Pull the strip apart slowly to keep the wax even on both sides. Apply in the direction of hair growth, pull skin taut and quickly pull strip off in the opposite direction to remove hair. Don’t worry, each kit comes with easy to follow instructions (with pictures!) to make the process easier and a little less painful.",
+          "claims":"Dermatologist tested. Cruelty free. Made without parabens, mineral oil, or petrochemicals. No added fragrance or artificial colors.",
+          "ing":"Glyceryl Rosinate, Ricinus Communis (Castor) Seed Oil, Beeswax, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate",
+          "key_ing":""
+          
+        }
+      },
+      {
+        "quantity" : "6",
+        "item" : "post wax cloths",
+        "details":{
+          "about":"A plush cloth designed to eliminate post-wax stickiness and restore skin. Kit includes 6 post-wax cloths.",
+          "benefits":"Removes excess wax and nourishes sensitive skin.",
+          "ideal":"All skin types in need of some post-wax care.",
+          "how":"After waxing, use post-wax cloth to clean skin.",
+          "claims":"Dermatologist tested. Cruelty free. Made without parabens, mineral oil, or petrochemicals.",
+          "ing":"Caprylic/Capric Triglyceride, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Pentylene Glycol, 4-t-Butylcyclohexanol, Triticum Vulgare (Wheat) Germ Oil, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Tocopheryl Acetate, Serenoa Serrulata Fruit Extract, Epilobium Angustifolium Extract, Cucurbita Pepo (Pumpkin) Seed Extract, Ormenis Multicaulis Oil, Lavandula Hybrida Oil, Ascorbyl Palmitate",
+          "key_ing":"Sweet Almond Oil to remove excess wax and nourish skin."
+          
+        }
+      },
+      {
+        "quantity" : "1",
+        "item" : "calming serum",
+        "details":{
+          "about":"Our custom Calming Serum with a rollerball applicator is formulated to soothe skin after waxing.",
+          "benefits":"Calms and soothes sensitive, just waxed areas.",
+          "ideal":"All skin types in need of some post-wax care. Use on just waxed areas or other sensitive spots in need of soothing.",
+          "how":"After cleansing with post-wax cloths, roll serum over sensitive areas. The stainless steel tip eliminates the need for you to touch the skin directly.",
+          "claims":"Dermatologist tested. Cruelty free. Made without parabens, mineral oil, or petrochemicals.",
+          "ing":"Water/Aqua/Eau, Aloe Barbadensis Leaf Juice, Isoceteth-20, Xanthan Gum, Propanediol, Amodimethicone, Gluconolactone, Saccharide Isomerate, Squalane, Sodium PCA, Sodium Benzoate, Tocopherol, Cetrimonium Chloride, Trideceth-10, Menthol, Enteromorpha Compressa Extract, Ormenis Multicaulis Oil, Calcium Gluconate, Silybum Marianum Fruit Extract, Ocimum Sanctum Leaf Extract, Lavandula Angustifolia (Lavender Oil), Citric Acid, Sodium Citrate, Linalool.",
+          "key_ing":"Aloe Vera to calm sensitive areas."
+          
+        }
+      }
+    ],
+    "colors": false,
+    "color_type": []
   },
   "body-wax-kit":{
 

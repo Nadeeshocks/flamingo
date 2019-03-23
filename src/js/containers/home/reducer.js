@@ -5,7 +5,7 @@ const initialState = {
     featured: []
 };
 
-const home = (state = initialState, action) => {
+export default (state = initialState, action) => {
     return producer(state, draft => {
         switch (action.type) {
             case ACTIONS.GET_FEATURED_PRODUCT:
@@ -17,5 +17,3 @@ const home = (state = initialState, action) => {
         }
     });
 }
-
-export default home;
