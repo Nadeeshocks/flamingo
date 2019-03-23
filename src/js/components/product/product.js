@@ -7,6 +7,7 @@ const Product = ({url , product, selectedColor, colorPalette ,onClickHandle }) =
   const renderImage = () => {
     return product.img.map((item, index ) =>{
       return item.type == selectedColor ? <img src={item.url} alt="product image" key={index}/> :""
+
     })       
   }
    return  <Col sm="4" className="mb-5 text-center">
