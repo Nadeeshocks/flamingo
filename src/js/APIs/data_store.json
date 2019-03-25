@@ -273,31 +273,31 @@
     ],
     "images":[
       {
-        "type": "007",
+        "type": "000",
         "url": "/public/assets/images/products/MediaGallery-FaceWax-image1.jpg"
       },
       {
-        "type": "008",
+        "type": "001",
         "url": "/public/assets/images/products/WaxGuide_Stache_Wax.jpg"
       },
       {
-        "type": "009",
+        "type": "002",
         "url": "/public/assets/images/products/MediaGallery-FaceWax-image3.jpg"
       },
       {
-        "type": "010",
+        "type": "003",
         "url": "/public/assets/images/products/MediaGallery-FaceWax-image4.jpg"
       },
       {
-        "type": "011",
+        "type": "004",
         "url": "/public/assets/images/products/MediaGallery-FaceWax-Image6.jpg"
       },
       {
-        "type": "012",
+        "type": "005",
         "url": "/public/assets/images/products/MediaGallery-FaceWax-image7.jpg"
       },
       {
-        "type" : "013",
+        "type" : "006",
         "url" : "/public/assets/images/products/MediaGallery-FaceWax-image5.jpg"
       }
     ],
@@ -311,27 +311,27 @@
     "price": "10",
     "images":[
       {
-        "type" : "013",
+        "type" : "000",
         "url" :"/public/assets/images/products/MediaGallery-BodyWax-image1.jpg"
       },
       {
-        "type" : "014",
+        "type" : "001",
         "url" :"/public/assets/images/products/MediaGallery-BodyWax-image2.jpg"
       },
       {
-        "type" : "015",
+        "type" : "002",
         "url" :"/public/assets/images/products/MediaGallery-BodyWax-image3.jpg"
       },
       {
-        "type" : "016",
+        "type" : "003",
         "url" :"/public/assets/images/products/MediaGallery-BodyWax-image4.jpg"
       },
       {
-        "type" : "017",
+        "type" : "004",
         "url" :"/public/assets/images/products/MediaGallery-BodyWax-image5.jpg"
       },
       {
-        "type" : "018",
+        "type" : "005",
         "url" :"/public/assets/images/products/MediaGallery-BodyWax-image6.jpg"
       }
     ],
@@ -386,7 +386,24 @@
     "desc": "We get it, sometimes it feels easier to shave with just water. But we think our Foaming Shave Gel will change that. Our luxe gel is formulated to condition skin, soften hair and add a cushion to your shave.",
     "price": "9",
     "assets" :[],
-    "images" :[],
+    "images" :[
+      {
+        "type" :"000",
+        "url" : "/public/assets/images/products/MediaGallery-FoamingShaveGel-image1.jpg"
+      },
+      {
+        "type" :"001",
+        "url" : "/public/assets/images/products/MediaGallery-FoamingShaveGel-image2.jpg"
+      },
+      {
+        "type" :"002",
+        "url" : "/public/assets/images/products/MediaGallery-FoamingShaveGel-image3.jpg"
+      },
+      {
+        "type" :"003",
+        "url" : "/public/assets/images/products/MediaGallery-FoamingShaveGel-image4.jpg"
+      }
+    ],
     "colors" :false,
     "color_type":[]
   },
@@ -396,7 +413,24 @@
     "desc": "The last thing anyone wants is a lotion that leaves skin feeling sticky rather than soft. We’re here to change that. Our Body Lotion is formulated to hydrate and gently exfoliate the skin, while improving skin’s texture and radiance over time.",
     "price": "9",
     "assets" :[],
-    "images" :[],
+    "images" :[
+      {
+        "type" :"000",
+        "url" : "/public/assets/images/products/MediaGallery-BodyLotion-image1.jpg"
+      },
+      {
+        "type" :"001",
+        "url" : "/public/assets/images/products/MediaGallery-BodyLotion-image2.jpg"
+      },
+      {
+        "type" :"002",
+        "url" : "/public/assets/images/products/MediaGallery-BodyLotion-image3-edit.jpg"
+      },
+      {
+        "type" :"003",
+        "url" : "/public/assets/images/products/MediaGallery-BodyLotion-image4.jpg"
+      }
+    ],
     "colors" :false,
     "color_type":[]
   },
@@ -406,7 +440,24 @@
     "desc": "We are raising the bar for shaving. With five blades, the Flamingo Razor has been expertly engineered and thoughtfully designed for all the places you shave.",
     "price": "9",
     "assets" :[],
-    "images" :[],
+    "images" :[
+      {
+        "type" :"000",
+        "url" : "/public/assets/images/products/MediaGallery-Razor-Taro-image1.jpg"
+      },
+      {
+        "type" :"001",
+        "url" : "/public/assets/images/products/MediaGallery-Razor-Taro-image2.jpg"
+      },
+      {
+        "type" :"002",
+        "url" : "/public/assets/images/products/MediaGallery-Razor-Taro-image3.jpg"
+      },
+      {
+        "type" :"003",
+        "url" : "/public/assets/images/products/MediaGallery-Razor-Taro-image4.jpg"
+      }
+    ],
     "colors" :false,
     "color_type":[]
   },
@@ -416,7 +467,28 @@
     "desc": "Why shouldn’t our razor blades be made to the same standards as men’s? We leveraged 95 years of German blade-making expertise to create a custom blade cartridge that works for your body (hello, knees!) and gives you a close, smooth shave.",
     "price": "16",
     "assets" :[],
-    "images" :[],
+    "images" :[
+      {
+        "type" :"000",
+        "url" : "/public/assets/images/products/8count.jpg"
+      },
+      {
+        "type" :"001",
+        "url" : "/public/assets/images/products/MediaGallery-Blades-image2-edit.jpg"
+      },
+      {
+        "type" :"002",
+        "url" : "/public/assets/images/products/MediaGallery-Blades-image3.jpg"
+      },
+      {
+        "type" :"003",
+        "url" : "/public/assets/images/products/MediaGallery-Blades-image4-edit.jpg"
+      },
+      {
+        "type" :"004",
+        "url" : "/public/assets/images/products/MediaGallery-Blades-image5.jpg"
+      }
+    ],
     "colors" :false,
     "color_type":[]
   }
