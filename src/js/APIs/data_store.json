@@ -160,38 +160,38 @@
       {
         "quantity": "1",
         "item": "Flamingo Razor Handle",
-        "detail": ""
+        "detail": {}
       },
       {
         "quantity": "2",
         "item": "German-Engineered Five Blade Cartridges",
-        "detail": ""
+        "detail": {}
       },
       {
         "quantity": "1",
         "item": "Foaming Shave Gel (1oz)",
-        "detail": ""
+        "detail": {}
       },
       {
         "quantity": "1",
         "item": "Body Lotion (3oz)",
-        "detail": ""
+        "detail": {}
       },
       {
         "quantity": "1",
         "item": "Shower Hook",
-        "detail": ""
+        "detail": {}
       },
       {
         "quantity": "1",
         "item": "Reusable Pouch",
-        "detail": ""
+        "detail": {}
       }
     ],
     "images": [
       {
         "type": "000",
-        "url": "/public/assets/images/products/Homepage-BelowFold-ShaveSet-edit.jpg"
+        "url": "/public/assets/images/products/ProductGallery-taro-rosegold.jpg"
       },
       {
         "type": "001",
@@ -274,27 +274,31 @@
     "images":[
       {
         "type": "007",
-        "url": "/public/assets/images/products/"
+        "url": "/public/assets/images/products/MediaGallery-FaceWax-image1.jpg"
       },
       {
         "type": "008",
-        "url": "/public/assets/images/products/"
+        "url": "/public/assets/images/products/WaxGuide_Stache_Wax.jpg"
       },
       {
         "type": "009",
-        "url": "/public/assets/images/products/"
+        "url": "/public/assets/images/products/MediaGallery-FaceWax-image3.jpg"
       },
       {
         "type": "010",
-        "url": "/public/assets/images/products/"
+        "url": "/public/assets/images/products/MediaGallery-FaceWax-image4.jpg"
       },
       {
         "type": "011",
-        "url": "/public/assets/images/products/"
+        "url": "/public/assets/images/products/MediaGallery-FaceWax-Image6.jpg"
       },
       {
         "type": "012",
-        "url": "/public/assets/images/products/"
+        "url": "/public/assets/images/products/MediaGallery-FaceWax-image7.jpg"
+      },
+      {
+        "type" : "013",
+        "url" : "/public/assets/images/products/MediaGallery-FaceWax-image5.jpg"
       }
     ],
     "colors": false,
@@ -305,6 +309,32 @@
     "title": "body wax kit",
     "desc": "Ready-to-use (no heating required), soft gel wax strips for the body. Kit includes 24 (12 double-sided) strips. Each strip is good for (at least) two pulls.",
     "price": "10",
+    "images":[
+      {
+        "type" : "013",
+        "url" :"/public/assets/images/products/MediaGallery-BodyWax-image1.jpg"
+      },
+      {
+        "type" : "014",
+        "url" :"/public/assets/images/products/MediaGallery-BodyWax-image2.jpg"
+      },
+      {
+        "type" : "015",
+        "url" :"/public/assets/images/products/MediaGallery-BodyWax-image3.jpg"
+      },
+      {
+        "type" : "016",
+        "url" :"/public/assets/images/products/MediaGallery-BodyWax-image4.jpg"
+      },
+      {
+        "type" : "017",
+        "url" :"/public/assets/images/products/MediaGallery-BodyWax-image5.jpg"
+      },
+      {
+        "type" : "018",
+        "url" :"/public/assets/images/products/MediaGallery-BodyWax-image6.jpg"
+      }
+    ],
     "assets": [
       {
         "quantity": "24",
@@ -350,8 +380,44 @@
     "colors": false,
     "color_type": []
   },
-  "foaming-shave-gel": {},
-  "body-lotion": {},
-  "flamingo-razor": {},
-  "Blades": {}
+  "foaming-shave-gel": {
+    "id": "foaming-shave-gel",
+    "title": "foaming shave gel",
+    "desc": "We get it, sometimes it feels easier to shave with just water. But we think our Foaming Shave Gel will change that. Our luxe gel is formulated to condition skin, soften hair and add a cushion to your shave.",
+    "price": "9",
+    "assets" :[],
+    "images" :[],
+    "colors" :false,
+    "color_type":[]
+  },
+  "body-lotion": {
+    "id": "body-lotion",
+    "title": "body lotion",
+    "desc": "The last thing anyone wants is a lotion that leaves skin feeling sticky rather than soft. We’re here to change that. Our Body Lotion is formulated to hydrate and gently exfoliate the skin, while improving skin’s texture and radiance over time.",
+    "price": "9",
+    "assets" :[],
+    "images" :[],
+    "colors" :false,
+    "color_type":[]
+  },
+  "flamingo-razor": {
+    "id": "flamingo-razor",
+    "title": "flamingo razor",
+    "desc": "We are raising the bar for shaving. With five blades, the Flamingo Razor has been expertly engineered and thoughtfully designed for all the places you shave.",
+    "price": "9",
+    "assets" :[],
+    "images" :[],
+    "colors" :false,
+    "color_type":[]
+  },
+  "Blades": {
+    "id": "Blades",
+    "title": "Blades",
+    "desc": "Why shouldn’t our razor blades be made to the same standards as men’s? We leveraged 95 years of German blade-making expertise to create a custom blade cartridge that works for your body (hello, knees!) and gives you a close, smooth shave.",
+    "price": "16",
+    "assets" :[],
+    "images" :[],
+    "colors" :false,
+    "color_type":[]
+  }
 }

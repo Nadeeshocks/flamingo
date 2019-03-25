@@ -26,7 +26,7 @@ const Toolbar = ({ toolbarClick , cartClick }) => (
 
             <div className="toolbar-brand">
                 <Link to="/">
-                    <img src={'public/assets/images/logo/logo.png'} />
+                    <img src={'/public/assets/images/logo/logo.png'} />
                 </Link>
             </div>
 

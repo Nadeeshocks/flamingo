@@ -17,8 +17,8 @@ const Product = ({url , product, selectedColor, colorPalette ,onClickHandle }) =
             product.colors ? renderImage() : <img src={product.img[0].url} alt="product image"/>
           }
         </div>
-        <div className="product-detail">
-        <h3 className="text-uc-12">{product.product_title}</h3>
+        <div className="product-desc">
+        <h3 className="text-uc-14">{product.product_title}</h3>
         <span className="text-c-12">{`$ ${product.price}`}</span>        
         </div>
       </Link>

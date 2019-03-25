@@ -7,6 +7,7 @@ const ColorPalette = ({type, color, click}) =>(
                 let res = color.filter(i => i.id == item)
                 return res.map((j ,index)=>{
                    return <img 
+                            key = {index}
                             src={j.imgUrl} 
                             alt="" 
                             className="color-palette-img" 

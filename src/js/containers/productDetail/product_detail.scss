@@ -1,0 +1,22 @@
+.product-detail{
+    margin:5rem 0;
+    .product-detail-head{
+        .item{
+            display:flex;
+            .item-img{
+                flex:1;
+                padding-right: 6rem;
+                img{
+                    max-width: 100%;
+                }
+            }
+            .item-detail{
+                flex:1;
+            }
+        }
+
+    }
+    .product-detail-body{
+
+    }
+}
