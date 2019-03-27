@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ColorPalette = ({type, color, click}) =>(
+const ColorPalette = ({type, color, click, sel}) =>(
     <div>
         {
             type.map((item)=>{
@@ -10,7 +10,7 @@ const ColorPalette = ({type, color, click}) =>(
                             key = {index}
                             src={j.imgUrl} 
                             alt="" 
-                            className="color-palette-img" 
+                            className={`color-palette-img  ${sel == j.title ? "active" : ""}` }
                             onClick={click} 
                             data-value={j.title}/>
                 })

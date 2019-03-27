@@ -5,17 +5,17 @@ const SideDrawer = ({show , click}) => (
   
   <nav className={`side-drawer ${show ? 'open' : '' }`} >
     <div className="side-drawer-close" onClick={ click }>
-      <i className="fa fa-times fa-2x" aria-hidden="true"></i>
+      <img src='/public/assets/images/icons/cross.png' />
     </div>
     <ul className="side-drawer-nav">
-      <li className="side-drawer-item">
-        <Link className="side-drawer-link" to="/">Shop All</Link>
+      <li className="side-drawer-item" onClick={ click }>
+        <Link className="side-drawer-link" to="/products">Shop All</Link>
       </li>
-      <li className="side-drawer-item">
-        <Link className="side-drawer-link" to="/">Our Story</Link>
+      <li className="side-drawer-item" onClick={ click }>
+        <Link className="side-drawer-link" to="/ourStory">Our Story</Link>
       </li>
-      <li className="side-drawer-item">
-        <Link className="side-drawer-link" to="/">Wax Guide</Link>
+      <li className="side-drawer-item" onClick={ click }>
+        <Link className="side-drawer-link" to="/waxGuide">Wax Guide</Link>
       </li>
     </ul>
     <div className="contacts">

@@ -32,7 +32,7 @@ a {
 .text-uc-l {
   text-transform: uppercase;
   font-size: 1.5rem;
-  font-weight: 300; }
+  font-weight: 400; }
 
 .text-uc-10 {
   text-transform: uppercase;
@@ -183,6 +183,8 @@ a {
   transform: translateX(-100%);
   transition: transform 0.5s ease-out;
   padding: 20px; }
+  .side-drawer .side-drawer-close img {
+    width: 30px; }
   .side-drawer ul.side-drawer-nav {
     margin-top: 10%;
     margin-bottom: 20%; }
@@ -231,12 +233,16 @@ a {
 .toggle-button {
   background: transparent;
   border: none; }
+  .toggle-button img {
+    width: 30px; }
 
 .cart-toggle-button {
   background-color: transparent;
   border: none; }
   .cart-toggle-button:focus, .cart-toggle-button:active {
     outline: none; }
+  .cart-toggle-button img {
+    width: 30px; }
 
 header {
   position: fixed;
@@ -281,8 +287,13 @@ footer {
   height: 100%; }
 
 .color-palette-img {
-  width: 30px;
+  width: 40px;
   margin: 0 5px; }
+
+.color-palette-img.active {
+  border: 1px solid #000;
+  border-radius: 50%;
+  padding: 2px; }
 
 .showcase {
   text-align: center;
@@ -425,7 +436,7 @@ footer {
   padding: 10rem 0 5rem; }
 
 .product-detail {
-  margin: 5rem 0; }
+  margin: 7rem 0; }
   .product-detail .product-detail-head .item {
     display: flex; }
     .product-detail .product-detail-head .item .item-img {
@@ -435,6 +446,35 @@ footer {
         max-width: 100%; }
     .product-detail .product-detail-head .item .item-detail {
       flex: 1; }
+      .product-detail .product-detail-head .item .item-detail .item-detail-title {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.5rem; }
+        .product-detail .product-detail-head .item .item-detail .item-detail-title p {
+          line-height: 1;
+          font-weight: 300; }
+      .product-detail .product-detail-head .item .item-detail .item-detail-desc p {
+        line-height: 2;
+        font-weight: 400;
+        word-spacing: 2.5px; }
+      .product-detail .product-detail-head .item .item-detail .divider {
+        border-top: 1px solid #000;
+        margin: 1.5rem 0; }
+      .product-detail .product-detail-head .item .item-detail .divider.light {
+        border-top: 1px solid darkgray; }
+      .product-detail .product-detail-head .item .item-detail ul li::before {
+        content: "\2022";
+        color: darkgray;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        padding: 0 10px; }
+      .product-detail .product-detail-head .item .item-detail h4 {
+        font-weight: 600; }
+      .product-detail .product-detail-head .item .item-detail .item-list {
+        line-height: 2;
+        font-weight: 400;
+        word-spacing: 2.5px; }
 
 .img-list {
   display: flex;

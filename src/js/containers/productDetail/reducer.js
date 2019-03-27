@@ -3,7 +3,8 @@ import producer from 'immer';
 
 const initialState = {
   product_detail :{},
-  loading :false
+  loading :false,
+  color_palette:[]
 };
 
 export default (state = initialState, action) => {
@@ -13,7 +14,8 @@ export default (state = initialState, action) => {
         draft.product_detail = action.payload;
         draft.loading = true;
         break;
-      
+      case ACTIONS.GET_COLOR_PALETTE:
+        draft.color_palette = action.payload;
       default:
         break;
 

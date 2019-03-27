@@ -1,5 +1,5 @@
 .product-detail{
-    margin:5rem 0;
+    margin:7rem 0;
     .product-detail-head{
         .item{
             display:flex;
@@ -12,6 +12,45 @@
             }
             .item-detail{
                 flex:1;
+                .item-detail-title{
+                    display :flex;
+                    justify-content: space-between;
+                    margin-bottom: 0.5rem;
+                    p{
+                        line-height: 1;
+                        font-weight: 300;
+                    }
+                }
+                .item-detail-desc{
+                    p{
+                        line-height: 2;
+                        font-weight: 400;
+                        word-spacing: 2.5px;
+                    }
+                }
+                .divider{
+                    border-top:1px solid $black;
+                    margin: 1.5rem 0;
+                }
+                .divider.light{
+                    border-top:1px solid $grey;
+                }
+                ul li::before {
+                    content: "\2022"; 
+                    color: $grey; 
+                    font-weight: bold; 
+                    display: inline-block; 
+                    width: 1em; 
+                    padding: 0 10px;
+                }
+                h4{
+                    font-weight :600;
+                }
+                .item-list{
+                    line-height: 2;
+                    font-weight: 400;
+                    word-spacing: 2.5px;
+                }
             }
         }
 

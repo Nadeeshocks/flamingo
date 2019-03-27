@@ -14,4 +14,19 @@ const getProductDetail = async (Id)=>{
     
 }
 
-export { getProductDetail };
+const getColorPalette = async ()=>{
+    try{
+      let response = await axios.get(API_URL + 'color_scheme');
+  
+      dispatch({
+        type : ACTIONS.GET_COLOR_PALETTE,
+        payload :response.data
+      })
+    }
+    catch(err){
+      console.log(err);
+    }
+  }
+  
+
+export { getProductDetail ,getColorPalette };

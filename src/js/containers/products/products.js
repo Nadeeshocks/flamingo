@@ -21,10 +21,10 @@ class Products extends React.Component{
   }
 
   renderProductList = ()=>{
-    const {product_list , color_palette} = this.props.products;
+    const {product_list , color_palette, loading} = this.props.products;
     const { match } = this.props;
     return (
-      <Row>
+      loading ? <Row>
         { 
           product_list.map((item, index) => {
           return (
@@ -39,7 +39,7 @@ class Products extends React.Component{
           )
         })
         }
-      </Row>
+      </Row> : ""
     )
   }
   render(){
