@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAA;EACL,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,UAAU,EAAE,IAAI;CAanB;;AAhBD,AAII,SAJK,CAIL,cAAc,AAAA,OAAO,CAAA;EACjB,MAAM,EAAE,cAAc;CACzB;;AANL,AAOI,SAPK,CAOL,cAAc,CAAA;EACV,aAAa,EAAE,GAAG;EAClB,OAAO,EAAE,GAAG;CAMf;;AAfL,AAUQ,SAVC,CAOL,cAAc,CAGV,GAAG,CAAA;EACC,aAAa,EAAE,GAAG;EAClB,KAAK,EAAC,IAAI;EACV,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "img_palette.scss"
+    ],
+    "names": [],
+    "file": "img_palette.css"
+}
